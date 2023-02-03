@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <File name="FileAppender" fileName="C:\Users\UDAY\IdeaProjects\OpenCart_jan\src\test\resources\logs\application-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
+            <!--File name="FileAppender" fileName="${basePath}\application-%d{date:yyyyMMdd}.log" filePattern="${basePath}\application-%d{yyyy-MM-dd}.log" immediateFlush="false" append="true"-->
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <!---AppenderRef ref="ConsoleAppender" /-->
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

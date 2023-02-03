@@ -1,0 +1,4 @@
+2023-01-28 13:04:44.927 [main] INFO  testCases.TC_001_AccountRegistrationTest - ****** Starting TC_001_AccountRegistrationTest *****
+2023-01-28 13:04:45.851 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on My Account
+2023-01-28 13:04:47.160 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on  Register
+2023-01-28 13:04:47.165 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing Customer Data
